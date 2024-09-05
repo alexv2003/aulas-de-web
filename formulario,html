@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario do site</title>
+</head>
+<body bgcolor="orange" ></body>
+
+   <form name="Formulario" method="post" action="">
+Nome:
+<input type="text" name="Nome" required="required" 
+placeholder="Digite seu nome" size="50"/>
+<br />
+ Senha:
+ <input type="password" name="senha" placeholder="Digite sua senha" 
+ autofocus>                                                    
+<br/>
+<br/>
+Email:
+<input type="email" name="usermail" placeholder="Digite seu e-mail">            
+<br/>
+URL: <input type="url" name="homepage">
+<br/>
+Oculto: <input name="oculto" type="hidden" value="algumacoisa">
+<br/>
+<h1>League of Legends</h1>  
+<br/>
+<input type="checkbox" name="League of Legends" value="Yasuo"/> Yasuo
+<br/>
+<input type="checkbox" name="League of Legends" value="Ornn"/> Ornn
+
+<br/>
+<br/>
+<input name="Botão" type="button" value="Clique aqui" onclick="alert(oi)"/>
+Escolha um arquivo
+<input name="arquivo" type="file"/>
+<br/>
+<br/>
+<input type="image" name="image" src="yas vs ornn.jpg" width="50 " height="50">
+<br/>
+<br/>
+Voto:
+<br/>
+<input type="radio" name="yasuo" value="0">Vote em Yasuo
+<br/>
+<input type="radio" name="Ornn" value="0">Vote em Ornn
+<br/>
+<select>
+ <option value="Java">Java</option>   
+ <option value="PHP">PHP</option>   
+ <option value="HTML">THML</option>   
+ <option value="CSS">CSS</option>   
+<br/>
+<br/>
+<textarea rows="8" cols="70"></textarea>
+<br/>
+<br/>
+<button type="button">
+<img src="yas vs ornn.jpg" width="50" height="50">
+</button>
+<br/>
+<input type="submit" value="Enviar" />
+</form>
+</body>
+</html>
