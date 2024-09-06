@@ -1,3 +1,12 @@
+/* Css Documento - Comentario*/
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:cornflowerblue;
+font-size: 50pt;
+
+
+}
+
 p{
 color: aquamarine;
 
